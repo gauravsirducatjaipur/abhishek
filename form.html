@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <form action="" method="get">
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Enter your first name" id="fname">
+
+    <br><br>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter your last name" id="lname">
+
+    <br><br>
+
+    <label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter your address" id="address">
+
+    <br><br>
+
+    <!-- address city -->
+
+    <label for="city"><b>City</b></label>
+    <select id="city">
+      <option value="AJM">Ajmer</option>
+      <option value="BNS">Banswara</option>
+      <option value="BKN">Bikaner</option>
+      <option value="CHURU">Churu</option>
+    </select>
+
+
+    <br><br>
+    <label for="dob"><b>DOB</b></label>
+    <input type="date" id="dob">
+
+    <br><br>
+    <label for="exp"><b>Experiance</b></label>
+    <input type="number" id="exp" min="0" max="10">
+
+
+    <br><br>
+    <label for="gender"><b>Gender</b></label>
+    <input type="radio" name="gender" checked> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other's
+
+    <br><br>
+    <!-- <label for="hobbies"><b>Hobbies</b></label> -->
+
+    <fieldset>
+      <legend>Hobbies</legend>
+      <input type="checkbox">Cricket
+      <br><br>
+      <input type="checkbox">Football
+      <br><br>
+      <input type="checkbox">Badminton
+      <br><br>
+      <input type="checkbox">Basketball
+      <br><br>
+      <input type="checkbox">Volleyball
+      <br><br>
+      <input type="checkbox">Hockey
+      <br><br>
+      <input type="checkbox">Billiards
+      <br><br>
+      <input type="checkbox">Swimming
+      <br><br>
+      <input type="checkbox">Chess
+      <br><br>
+      <input type="checkbox">Other's
+
+    </fieldset>
+
+    <br><br>
+    <label for="photo">Photo</label>
+    <input type="file">
+
+    <br><br>
+    <label for="">About Me :</label>
+    <br>
+    <textarea rows="10" cols="90"></textarea>
+
+
+    <br><br>
+    <button>Insert</button>
+    <input type="button" value="Delete">
+    <input type="reset" value="Reset">
+
+  </form>
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

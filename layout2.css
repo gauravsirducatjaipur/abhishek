@@ -1,57 +1,45 @@
-#outer {
-  border: solid 2px black;
-  width: 500px;
-  /* height: 600px; */
+.container {
+  border: 1px solid #000;
+  padding: 10px;
   text-align: center;
+  width: 600px;
 }
 
-#header {
-  background-color: #3498db;
+.header {
+  background-color: cornflowerblue;
   height: 100px;
   line-height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-#navbar {
+.navbar {
+  background-color: teal;
   height: 50px;
   line-height: 50px;
-  background-color: #1abc9c;
   margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
-#gallery {
-  /* border: solid 2px #f00; */
+.gallery {
   margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
   display: flex;
+  /* gap: 10px; */
 }
 
-#left {
-  background-color: #f1c40f;
-  height: 350px;
-  line-height: 350px;
+.gallery-left {
+  height: 400px;
+  background-color: khaki;
   width: 50%;
 }
 
-#right {
-  background-color: teal;
-  height: 350px;
-  line-height: 350px;
+.gallery-right {
+  height: 400px;
+  background-color: olivedrab;
   width: 50%;
 }
 
-#footer {
-  background-color: #2c3e50;
+.footer {
+  background-color: rgb(95, 95, 99);
   height: 100px;
   line-height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
   color: white;
 }

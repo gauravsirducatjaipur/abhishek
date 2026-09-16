@@ -21,21 +21,34 @@
 
 .gallery {
   margin-bottom: 10px;
+  border: 2px solid red;
   display: flex;
-  /* gap: 10px; */
 }
 
 .gallery-left {
   height: 400px;
   background-color: khaki;
   width: 50%;
+  /* display: inline-block; */
+  /* margin-right: -3px; */
+  /* float: left; */
 }
 
 .gallery-right {
   height: 400px;
   background-color: olivedrab;
   width: 50%;
+  /* display: inline-block; */
+  /* margin-left: -1px; */
+  /* margin-right: -2px; */
+  /* float: right; */
 }
+
+/* .gallery::after {
+  display: block;
+  content: "";
+  clear: both;
+} */
 
 .footer {
   background-color: rgb(95, 95, 99);

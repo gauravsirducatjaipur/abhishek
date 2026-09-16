@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  border: 3px solid #3498db;
+  height: 700px;
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+.child {
+  height: 150px;
+  background-color: #1abc9c;
+  width: 150px;
+  line-height: 150px;
+  text-align: center;
+}

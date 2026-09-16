@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 3px solid orange;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: orangered;
+  width: fit-content;
+  margin: 50px auto;
+  padding: 5px 20px;
+}
+
+.parent {
+  border: 5px solid #3498db;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.child1,
+.child2,
+.child3 {
+  line-height: 150px;
+  height: 150px;
+  width: 33.33%;
+  text-align: center;
+}
+
+
+.child1 {
+  background-color: #1abc9c;
+
+}
+
+.child2 {
+  background-color: #3498db;
+}
+
+.child3 {
+  background-color: #9b59b6;
+}

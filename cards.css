@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: darkslategrey;
+}
+
+
+.products {
+  /* border: 3px solid cornflowerblue; */
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  /* border: 1px solid #d6d4d4; */
+  border: 1px solid rgb(48, 69, 69, .5);
+  /* border: 1px solid #22365255; */
+  border-radius: 3px;
+  /* height: 400px; */
+  /* width: 300px; */
+  width: 20%;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+.product img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.product .title {
+  /* border: 1px solid #000; */
+  /* text-align: center; */
+  font-weight: bold;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  /* color: #525151; */
+  color: darkslategrey;
+  /* color: #223652; */
+  letter-spacing: 1px;
+  margin: 5px auto;
+  height: auto;
+  max-height: 25px;
+}
+
+.product .price {
+  /* border: 1px solid #000; */
+  text-align: right;
+  font-weight: 800;
+  color: #525151;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.product .price span {
+  color: black;
+}
+
+.product .description {
+  /* border: 1px solid #f00; */
+  text-align: justify;
+  color: #525151;
+  height: 110px;
+  max-height: 110px;
+  overflow: hidden;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "montserrat", sans-serif;
+
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  height: 29px;
+  width: 150px;
+  background: none;
+  border: none;
+  background-color: #2f4f4fae;
+  /* background-color: #223652; */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

@@ -4,6 +4,49 @@
   box-sizing: border-box;
 }
 
+nav {
+  /* border: solid 2px orange; */
+  display: flex;
+  justify-content: center;
+  background-color: #2f4f4fae;
+  box-shadow: 0px 2px 22px -4px gray;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  /* border: 3px solid green; */
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  /* border: 1px solid blue; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  /* height: 30px; */
+  padding: 12px 0px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "montserrat", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+
+}
+
 h1 {
   text-align: center;
   font-family: "montserrat", sans-serif;
@@ -98,4 +141,42 @@ button {
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+footer {
+  /* border: 1px solid red; */
+  background-color: #2f4f4fae;
+  padding: 0px 60px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+footer .box {
+  /* border: 1px solid #000; */
+  width: 22%;
+
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px 0px; */
+}
+
+
+footer .box ul {
+  list-style: none;
+  /* border: 1px solid red; */
+}
+
+footer .box ul li {
+  /* border: 1px solid white; */
+  margin: 10px 0px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
 }

@@ -145,7 +145,7 @@ button {
 
 
 .services {
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 
 
@@ -192,6 +192,9 @@ button {
   letter-spacing: 1px;
 }
 
+.services .mid>p {
+  margin-bottom: 30px;
+}
 
 .services .cards {
   /* border: 1px solid blue; */
@@ -255,6 +258,41 @@ button {
   margin-top: 30px;
 }
 
+.services .bottom {
+  /* border: 1px solid blue; */
+  background-color: #f8f9fa;
+  box-shadow: 0px -2px 10px -6px #adaeae;
+
+}
+
+.services .bottom h1 {
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 38px;
+  /* border: 1px solid red; */
+  margin-bottom: 15px;
+}
+
+.services .bottom p {
+  /* border: 1px solid #000; */
+  text-align: center;
+  color: #6c757d;
+  font-family: "montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.services .bottom button {
+  background-color: black;
+  text-transform: capitalize;
+  margin-top: 30px;
+  height: 35px;
+  border-radius: 3px;
+}
 
 footer {
   /* border: 1px solid red; */
